@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+
+    flex-flow: row wrap;
+    flex: 1 1 100vw;
+}
+
+body p {
+    text-align: center;
+    margin: auto;
+}
+
+header, nav, main, aside, footer {
+    display: flex;
+
+    background-color: #a1a1a1;
+    margin: 3px;
+}
+
+header {
+    flex: 1 1 100vw;
+    height: 100px;
+}
+
+nav {
+    flex: 1 1 100vw;
+    height: 100px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+
+    margin: 5%;
+}
+
+main {
+    flex: 20 1 500px;
+    height: calc(100vw - 330px);
+}
+
+aside {
+    flex: 1 1 200px;
+}
+
+footer {
+    flex: 1 1 100vw;
+    height: 100px;
+}

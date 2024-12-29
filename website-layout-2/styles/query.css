@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 923px) {
+    main {
+        height: calc(100vw - 436px);
+    }
+
+    aside {
+        flex: 1 1 100vw;
+        height: 100px;
+    }
+}
+
+/*@media  screen and (max-width: 717px) {
+    nav {
+        height: 100px;
+    }
+
+    main {
+        height:  calc(100vw - 436px);
+    }
+}*/
