@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 923px) {
+    main {
+        height: calc(100vw - 330px);
+    }
+
+    aside {
+        flex: 1 1 100vw;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 717px) {
+    
+    header #openMenu, #closeMenu {
+        display: block;
+    }
+
+    #openMenu {
+        margin-left: auto;
+    }
+
+    #closeMenu {
+        position: fixed;
+        right: 15px;
+        top: 15px;
+    }
+
+    nav {
+        position: fixed;
+        display: none;
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 100vw;
+        height: 100vh;
+
+        background: rgba(255, 255, 255, 0.8);
+        margin: 0;
+    }
+}
