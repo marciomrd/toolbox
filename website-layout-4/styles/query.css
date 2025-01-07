@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 923px) {
+    header {
+        order: 0 ;
+    }
+
+    main {
+        order: 1;
+        height: calc(100vw - 330px);
+    }
+
+    aside {
+        order: 2;
+        flex: 1 1 100vw;
+        height: 100px;
+    }
+
+    footer {
+        order: 3;
+    }
+}
+
+@media screen and (max-width: 717px) {
+    
+    header #openMenu, #closeMenu {
+        display: block;
+    }
+
+    #openMenu {
+        margin-left: auto;
+    }
+
+    #closeMenu {
+        position: fixed;
+        right: 15px;
+        top: 15px;
+    }
+
+    nav {
+        position: fixed;
+        display: none;
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 100vw;
+        height: 100vh;
+
+        background: rgba(255, 255, 255, 0.8);
+        margin: 0;
+
+        opacity: 0;
+        transition: 0.3s;
+    }
+}
