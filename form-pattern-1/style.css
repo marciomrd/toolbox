@@ -6,7 +6,42 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    
+    width: 100vw;
+    height: 100vh;
+
+    background: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    width: 400px;
+
+    margin: auto;
+    background: whitesmoke;
+    border-radius: 10px;
+
+}
+
+main h1 {
+    margin: 10px;
+}
+
+#form > label {
+    padding-top: 20px;
+}
+
 #form input {
     display: block;
-    margin-top: 5px;
+    margin: 5px 0px;
+}
+
+button#send {
+    margin: 10px;
 }
