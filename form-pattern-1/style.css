@@ -24,6 +24,7 @@ main {
     width: 400px;
 
     margin: auto;
+    
     background: whitesmoke;
     border-radius: 10px;
 
@@ -40,8 +41,12 @@ main h1 {
 #form input {
     display: block;
     margin: 5px 0px;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 button#send {
     margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
 }
