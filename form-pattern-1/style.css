@@ -56,9 +56,16 @@ main h1 {
 
 button#send {
     margin-top: 20px;
+    background-color: lightgray;
 
     width: 100%;
     height: 45px;
 
     border-radius: 40px;
+    cursor: pointer;
+}
+
+button#send:hover{
+    background-color: white;
+    transition: background-color ease 0.4s;
 }
