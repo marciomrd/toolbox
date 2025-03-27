@@ -67,6 +67,8 @@ button#send {
 
     border-radius: 40px;
     cursor: pointer;
+
+    outline: none;
     border: none;
 }
 
